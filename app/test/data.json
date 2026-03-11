@@ -1,0 +1,116 @@
+// Very High Churn (new customer + expensive plan)
+{
+  "gender": "Male",
+  "SeniorCitizen": 1,
+  "Partner": "No",
+  "Dependents": "No",
+  "tenure": 1,
+  "PhoneService": "Yes",
+  "MultipleLines": "Yes",
+  "InternetService": "Fiber optic",
+  "OnlineSecurity": "No",
+  "OnlineBackup": "No",
+  "DeviceProtection": "No",
+  "TechSupport": "No",
+  "StreamingTV": "Yes",
+  "StreamingMovies": "Yes",
+  "Contract": "Month-to-month",
+  "PaperlessBilling": "Yes",
+  "PaymentMethod": "Electronic check",
+  "MonthlyCharges": 105.3,
+  "TotalCharges": 105.3
+},
+
+// High Churn (short tenure + month contract)
+
+{
+  "gender": "Female",
+  "SeniorCitizen": 0,
+  "Partner": "No",
+  "Dependents": "No",
+  "tenure": 5,
+  "PhoneService": "Yes",
+  "MultipleLines": "No",
+  "InternetService": "Fiber optic",
+  "OnlineSecurity": "No",
+  "OnlineBackup": "Yes",
+  "DeviceProtection": "No",
+  "TechSupport": "No",
+  "StreamingTV": "Yes",
+  "StreamingMovies": "Yes",
+  "Contract": "Month-to-month",
+  "PaperlessBilling": "Yes",
+  "PaymentMethod": "Electronic check",
+  "MonthlyCharges": 89.5,
+  "TotalCharges": 447.5
+},
+//Medium Churn
+{
+  "gender": "Female",
+  "SeniorCitizen": 0,
+  "Partner": "Yes",
+  "Dependents": "No",
+  "tenure": 18,
+  "PhoneService": "Yes",
+  "MultipleLines": "Yes",
+  "InternetService": "DSL",
+  "OnlineSecurity": "Yes",
+  "OnlineBackup": "Yes",
+  "DeviceProtection": "No",
+  "TechSupport": "No",
+  "StreamingTV": "No",
+  "StreamingMovies": "No",
+  "Contract": "One year",
+  "PaperlessBilling": "Yes",
+  "PaymentMethod": "Mailed check",
+  "MonthlyCharges": 70.5,
+  "TotalCharges": 1269.0
+},
+
+//Low Churn (stable customer)
+
+{
+  "gender": "Male",
+  "SeniorCitizen": 0,
+  "Partner": "Yes",
+  "Dependents": "Yes",
+  "tenure": 48,
+  "PhoneService": "Yes",
+  "MultipleLines": "Yes",
+  "InternetService": "DSL",
+  "OnlineSecurity": "Yes",
+  "OnlineBackup": "Yes",
+  "DeviceProtection": "Yes",
+  "TechSupport": "Yes",
+  "StreamingTV": "No",
+  "StreamingMovies": "No",
+  "Contract": "Two year",
+  "PaperlessBilling": "No",
+  "PaymentMethod": "Bank transfer (automatic)",
+  "MonthlyCharges": 65.0,
+  "TotalCharges": 3120.0
+},
+
+// Very Low Churn (loyal long-term customer)
+
+{
+  "gender": "Female",
+  "SeniorCitizen": 0,
+  "Partner": "Yes",
+  "Dependents": "Yes",
+  "tenure": 72,
+  "PhoneService": "Yes",
+  "MultipleLines": "Yes",
+  "InternetService": "DSL",
+  "OnlineSecurity": "Yes",
+  "OnlineBackup": "Yes",
+  "DeviceProtection": "Yes",
+  "TechSupport": "Yes",
+  "StreamingTV": "No",
+  "StreamingMovies": "No",
+  "Contract": "Two year",
+  "PaperlessBilling": "No",
+  "PaymentMethod": "Credit card (automatic)",
+  "MonthlyCharges": 58.0,
+  "TotalCharges": 4176.0
+}
