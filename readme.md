@@ -1,92 +1,148 @@
-# Customer Churn Prediction API
+# 🚀 Customer Churn Prediction API
 
-![Python](https://img.shields.io/badge/Python-3.9-blue)
-![FastAPI](https://img.shields.io/badge/FastAPI-API-green)
-![Docker](https://img.shields.io/badge/Docker-Container-blue)
-![Scikit-Learn](https://img.shields.io/badge/ML-ScikitLearn-orange)
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.9-blue" />
+  <img src="https://img.shields.io/badge/FastAPI-API-green" />
+  <img src="https://img.shields.io/badge/Docker-Container-blue" />
+  <img src="https://img.shields.io/badge/ML-ScikitLearn-orange" />
+</p>
 
-A Machine Learning powered REST API that predicts whether a telecom
-customer is likely to churn.
+---
 
-## Project Overview
+## 📌 Overview
 
-This project demonstrates an end-to-end machine learning pipeline
-including:
+This project is an **end-to-end Machine Learning system** that predicts customer churn for a telecom company.
 
--   Data preprocessing
--   Feature engineering
--   Model comparison
--   Model selection
--   FastAPI deployment
--   Docker containerization
+It combines:
 
-The API accepts customer attributes and returns:
+- 📊 Exploratory Data Analysis (EDA)
+- 🤖 Machine Learning model
+- ⚡ FastAPI-based real-time prediction service
+- 🐳 Dockerized deployment
 
--   churn prediction
--   churn probability
+The API predicts whether a customer will churn and provides **probability scores** for decision-making.
 
-## Project Structure
+---
 
-    churn-prediction-api
-    │
-    ├── app
-    │   ├── main.py
-    │   ├── predictor.py
-    │   └── schema.py
-    │
-    ├── model
-    │   ├── best_churn_model.joblib
-    │   └── feature_names.joblib
-    │
-    ├── data
-    ├── train_model.py
-    ├── requirements.txt
-    ├── Dockerfile
-    └── README.md
+## ✨ Key Features
 
-## Running Locally
+- 🔍 Automated EDA with visual outputs (heatmaps, distributions)
+- 🤖 ML model trained on real Telco dataset
+- ⚡ Real-time prediction via REST API
+- 📈 Swagger UI for easy testing
+- 🐳 Docker support for production deployment
+- 📂 Modular and scalable project structure
 
-### Create virtual environment
+---
 
-    python3 -m venv venv
-    source venv/bin/activate
+## 🏗️ System Architecture
+Client → FastAPI → Predictor → ML Model → Response
+↓
+EDA Engine → Charts + Insights
 
-### Install dependencies
+<p align="center">
+  <img src="docs/churn_animated_v3.gif" width="800"/>
+</p>
+---
 
-    pip install -r requirements.txt
+## 📁 Project Structure
+churn-prediction-api/
+│
+├── app/
+│ ├── main.py # FastAPI entry point
+│ ├── predictor.py # Prediction logic
+│ ├── schema.py # Request schema
+│ ├── eda/
+│ │ └── eda_analysis.py # EDA pipeline
+│ └── test/
+│
+├── data/ # Dataset
+├── model/ # Trained models
+├── eda_outputs/ # Generated charts
+├── eda_inputs/ # Uploaded files
+│
+├── Dockerfile
+├── requirements.txt
+└── README.md
 
-### Start server
 
-    uvicorn app.main:app --reload
+---
 
-Open Swagger UI:
+## 📊 EDA Capabilities
 
-    http://127.0.0.1:8000/docs
+The project includes a **fully automated EDA engine** that generates:
 
-## Running with Docker
+- 📌 Correlation heatmap  
+- 📌 Feature distributions  
+- 📌 Churn vs feature relationships  
+- 📌 Summary statistics  
 
-### Build image
+### 👉 View EDA Dashboard
 
-    docker build -t churn-api .
 
-### Run container
+<p align="center">
+  <img src="docs/output.gif" width="800"/>
+</p>
 
-    docker run -p 8000:8000 churn-api
 
-Access API:
+---
 
-    http://localhost:8000/docs
+## ⚙️ Running Locally
 
-## API Endpoints
+## 🎬 Demo
 
-  Endpoint   Method   Description
-  ---------- -------- ---------------------------
-  /health    GET      Health check
-  /predict   POST     Predict churn probability
 
-## Example Request
+<p align="center">
+  <img src="docs/Churn-predict_api_2x.gif" width="800"/>
+</p>
+---
 
-``` json
+### 1️⃣ Create Virtual Environment
+
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+### 2️⃣ Install Dependencies
+``` bash
+
+pip install -r requirements.txt
+```
+### 3️⃣ Start Server
+```bash
+uvicorn app.main:app --reload
+```
+
+### 🐳 Running with Docker
+```bash
+Build Image
+
+docker build -t churn-api .
+
+Run Container
+
+docker run -p 8000:8000 churn-api
+
+```
+
+### 👉 Access API:
+
+http://localhost:8000/docs
+
+### 🔌 API Endpoints
+```bash
+Endpoint	Method	Description
+/	GET	Health check
+/predict	POST	Predict churn
+/eda/run	POST	Run EDA on dataset
+/eda/upload	POST	Upload CSV and run EDA
+/eda/summary	GET	Get EDA summary
+/eda/gallery	GET	View EDA visual dashboard
+
+
+
+
 {
   "gender": "Female",
   "SeniorCitizen": 0,
@@ -108,17 +164,39 @@ Access API:
   "MonthlyCharges": 85.5,
   "TotalCharges": 1026.0
 }
-```
-
-## Example Response
-
-``` json
+📤 Example Response
 {
-  "churn_prediction": "Yes",
-  "churn_probability": 0.74
+  "prediction": {
+    "churn_prediction": "Yes",
+    "churn_probability": 0.74
+  }
 }
 ```
+### 🧠 ML Pipeline
 
-## Author
+- Data Cleaning & Preprocessing
+
+- Feature Engineering
+
+- Model Training (Scikit-learn)
+
+- Model Serialization (Joblib)
+
+- Inference via FastAPI
+
+### 🚀 Future Improvements
+
+- 📊 Feature importance visualization
+
+- 📈 Model monitoring & logging
+
+- 📦 Batch prediction API
+
+- 📄 Downloadable EDA reports
+
+- ☁️ Cloud deployment (AWS/GCP)
+
+### 👩‍💻 Author
 
 Chandrayee Kumar
+Senior Software Engineer | AI/ML Enthusiast
