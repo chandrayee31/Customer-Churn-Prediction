@@ -11,6 +11,7 @@ model = joblib.load(MODEL_PATH)
 
 def predict_churn(data: dict) -> dict:
     df = pd.DataFrame([data])
+    
 
     # Match training-time feature engineering
     df["TotalCharges"] = pd.to_numeric(df["TotalCharges"], errors="coerce")

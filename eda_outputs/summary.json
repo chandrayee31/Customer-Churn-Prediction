@@ -1,0 +1,35 @@
+{
+  "file_path": "/Users/chandrayeekumar/Documents/churn-prediction-api/eda_inputs/tmpid1vtt4f.csv",
+  "row_count": 7043,
+  "column_count": 22,
+  "target_column": "Churn",
+  "churn_distribution": {
+    "0": 5174,
+    "1": 1869
+  },
+  "churn_rate": 0.2654,
+  "numeric_columns": [
+    "SeniorCitizen",
+    "tenure",
+    "MonthlyCharges",
+    "TotalCharges"
+  ],
+  "missing_values": {
+    "TotalCharges": 11
+  },
+  "plots": [
+    "churn_distribution.png",
+    "missing_values.png",
+    "numerical_histograms.png",
+    "correlation_heatmap.png",
+    "churn_vs_tenure.png",
+    "churn_vs_monthly_charges.png",
+    "contract_vs_churn.png",
+    "boxplots_by_churn.png"
+  ],
+  "churn_rate_by_contract": {
+    "Month-to-month": 0.4271,
+    "One year": 0.1127,
+    "Two year": 0.0283
+  }
+}

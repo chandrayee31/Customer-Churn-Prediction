@@ -21,3 +21,105 @@ http://localhost:8000/docs
 http://localhost:8000/health
 
 docker build --no-cache -t churn-api .
+R-2427162
+R-2438743
+R-2428023
+
+
+Develop and deploy machine learning models using decision trees, random forests, and gradient boosting techniques (e.g., XGBoost), with a focus on scalability, interpretability, and hyperparameter optimization.
+
+Apply unsupervised learning techniques such as topic modeling (LDA, BERTopic) and clustering (K-means, HDBSCAN) to extract insights from unstructured data.
+
+Build and refine Retrieval-Augmented Generation (RAG), Conversational-Aware Generation (CAG), and Knowledge-Augmented Generation (KAG) systems, utilizing advanced chunking, hybrid retrieval, and reranking strategies.
+
+Design and orchestrate multi-agent LLM systems using paradigms like ReAct, self-reflection, and plan & execute, integrating tool usage and agent-to-agent communication protocols.
+
+Fine-tune and optimize large language models using methods like LoRA, QLoRA, quantization, prompt tuning, and distillation.
+
+Develop automated and human-in-the-loop evaluation frameworks for NLP tasks such as summarization, question answering, and code generation.
+
+Work across cloud-native AI platforms (Azure, AWS, GCP) to deploy scalable ML/AI solutions, using modern MLOps tools to streamline experimentation and production workflows.
+
+What You Will Bring
+Deep expertise in traditional ML techniques and frameworks, with a strong foundation in model interpretability, tuning, and real-world deployment.
+
+Proficiency in unsupervised learning methods for organizing and deriving value from unstructured datasets.
+
+Demonstrated experience with generative AI and retrieval-augmented architectures, including knowledge of advanced search and reranking techniques.
+
+Solid understanding of agent-based LLM frameworks and protocols (LangChain, LangGraph, AutoGen, MCP, Agent Protocol), enabling you to build sophisticated multi-agent systems.
+
+Hands-on experience fine-tuning LLMs using cutting-edge methods for improved efficiency and performance.
+
+A strategic approach to evaluation, with a track record of building robust pipelines for assessing model performance both automatically and with human feedback.
+
+Technical fluency across Python, PyTorch, TensorFlow, Hugging Face, and popular vector databases (Milvus, Pinecone, Qdrant), combined with experience on major cloud AI platforms and MLOps tools like MLflow, Docker, and Kubernetes.
+
+
+
+........
+
+
+·       Analyze customer journeys, purchase patterns, and product performance to uncover trends and opportunities in the e-commerce environment.
+
+·       Perform exploratory data analysis (EDA) on large datasets from multiple e-commerce sources (web analytics, CRM, marketing platforms, transactional data).
+
+·       Create clear dashboards and reports using visualization tools to communicate insights to product, marketing, and business teams.
+
+·       Work with engineering and data teams to ensure proper data collection, quality, and structure for analysis.
+
+·       Conduct A/B testing for marketing campaigns, pricing strategies, website changes, and product recommendations.
+
+·       Use GCP tools (BigQuery, Cloud Storage, Looker Studio) for data querying, processing, and reporting.
+
+ 
+
+This position description identifies the responsibilities and tasks typically associated with the performance of the position. Other relevant essential functions may be required.
+
+......
+UST is looking for a Data scientist to join our Retail & CPG team with hands-on experience with GCP, specifically BigQuery (data modelling, SQL optimization, pipelines).
+
+ 
+
+The opportunity:
+
+·       Design and implement RAG systems for GenAI applications.
+
+·       Develop and maintain production-ready APIs using FastAPI.
+
+·       Optimize BigQuery data models and SQL queries for performance.
+
+·       Integrate tools and data sources using MCP concepts.
+
+·       Collaborate with cross-functional teams to deliver high-quality solutions.
+
+·       Troubleshoot and resolve issues in production environments.
+
+ 
+
+This position description identifies the responsibilities and tasks typically associated with the performance of the position. Other relevant essential functions may be required.
+
+           
+
+What you need:
+
+·       5+ hands on, demonstrable experience is required
+
+·       Should be expertise in Modeling & Analysis, Strategic Insights
+
+·       Strong proficiency in Python (data processing, model integration, API development).
+
+·       Experience building RAG systems (vector search, embeddings, retrieval pipelines, prompt orchestration).
+
+·       Production API development experience using FastAPI (REST endpoints, dependency injection, request validation, testing
+
+·       Familiarity with MCP concepts/usage for tool and data-source integration within GenAI applications.
+
+·       Strong SQL skills and experience working with large datasets.
+
+·       Strong communication skills and ability to work effectively with cross-functional teams.
+
+·       Strong problem-solving abilities, good communication (written & verbal) skills, and the ability to work effectively in a team are also important for this role.
+
+·       Should be able to articulate past projects and do on the fly troubleshooting/ write/explain logic during discussions
+
