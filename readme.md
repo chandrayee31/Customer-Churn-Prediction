@@ -1,4 +1,11 @@
-# 🚀 Customer Churn Prediction API
+
+<h1 align="center">
+  🚀 <span style="background: linear-gradient(90deg,#007CF0,#00DFD8,#7928CA);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;">
+ Customer Churn Prediction 
+  </span>
+</h1>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.9-blue" />
@@ -46,6 +53,7 @@ EDA Engine → Charts + Insights
 ---
 
 ## 📁 Project Structure
+```bash
 churn-prediction-api/
 │
 ├── app/
@@ -65,7 +73,7 @@ churn-prediction-api/
 ├── requirements.txt
 └── README.md
 
-
+```
 ---
 
 ## 📊 EDA Capabilities
