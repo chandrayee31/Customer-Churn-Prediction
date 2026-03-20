@@ -101,7 +101,7 @@ The project includes a **fully automated EDA engine** that generates:
 
 
 <p align="center">
-  <img src="docs/Churn-predict_api_2x.gif" width="800"/>
+  <img src="docs/Churn_prediction_demo.gif" width="800"/>
 </p>
 ---
 
