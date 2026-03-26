@@ -1,6 +1,6 @@
 
 <h1 align="center">
-  🚀 <span style="background: linear-gradient(90deg,#007CF0,#00DFD8,#7928CA);
+  <span style="background: linear-gradient(90deg,#007CF0,#00DFD8,#7928CA);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;">
  Customer Churn Prediction 
@@ -16,7 +16,7 @@
 
 ---
 
-## 📌 Overview
+##  Overview
 
 This project is an **end-to-end Machine Learning system** that predicts customer churn for a telecom company.
 
@@ -31,7 +31,7 @@ The API predicts whether a customer will churn and provides **probability scores
 
 ---
 
-## ✨ Key Features
+##  Key Features
 
 - 🔍 Automated EDA with visual outputs (heatmaps, distributions)
 - 🤖 ML model trained on real Telco dataset
@@ -42,17 +42,17 @@ The API predicts whether a customer will churn and provides **probability scores
 
 ---
 
-## 🏗️ System Architecture
+##  System Architecture
 Client → FastAPI → Predictor → ML Model → Response
 ↓
 EDA Engine → Charts + Insights
 
 <p align="center">
-  <img src="docs/churn_animated_v3.gif" width="800"/>
+  <img src="docs/churn_prediction_api_working.drawio.png" width="800"/>
 </p>
 ---
 
-## 📁 Project Structure
+##  Project Structure
 ```bash
 churn-prediction-api/
 │
@@ -76,7 +76,7 @@ churn-prediction-api/
 ```
 ---
 
-## 📊 EDA Capabilities
+##  EDA Capabilities
 
 The project includes a **fully automated EDA engine** that generates:
 
@@ -95,9 +95,9 @@ The project includes a **fully automated EDA engine** that generates:
 
 ---
 
-## ⚙️ Running Locally
+##  Running Locally
 
-## 🎬 Demo
+##  Demo
 
 
 <p align="center">
@@ -105,24 +105,24 @@ The project includes a **fully automated EDA engine** that generates:
 </p>
 ---
 
-### 1️⃣ Create Virtual Environment
+### 1. Create Virtual Environment
 
 ```bash
 python3 -m venv venv
 source venv/bin/activate
 ```
 
-### 2️⃣ Install Dependencies
+### 2. Install Dependencies
 ``` bash
 
 pip install -r requirements.txt
 ```
-### 3️⃣ Start Server
+### 3. Start Server
 ```bash
 uvicorn app.main:app --reload
 ```
 
-### 🐳 Running with Docker
+###  Running with Docker
 ```bash
 Build Image
 
@@ -134,7 +134,7 @@ docker run -p 8000:8000 churn-api
 
 ```
 
-### 👉 Access API:
+### Access API:
 
 http://localhost:8000/docs
 
@@ -192,7 +192,7 @@ Endpoint	Method	Description
 
 - Inference via FastAPI
 
-### 🚀 Future Improvements
+###  Future Improvements
 
 - 📊 Feature importance visualization
 
@@ -204,7 +204,7 @@ Endpoint	Method	Description
 
 - ☁️ Cloud deployment (AWS/GCP)
 
-### 👩‍💻 Author
+###  Author
 
 Chandrayee Kumar
 Senior Software Engineer | AI/ML Enthusiast
