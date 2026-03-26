@@ -8,3 +8,6 @@ joblib
 pydantic
 matplotlib
 python-multipart
+ Hi Im a python developer,
+ have experience building ETL pipeline,Microservces,
+ ML projects like building an deploying model,if 
