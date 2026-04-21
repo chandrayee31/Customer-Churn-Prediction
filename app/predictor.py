@@ -10,6 +10,7 @@ model = joblib.load(MODEL_PATH)
 
 
 def predict_churn(data: dict) -> dict:
+    # data into dataframe for further process
     df = pd.DataFrame([data])
     
 
